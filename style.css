@@ -2,14 +2,25 @@
   margin: 0;
   padding: 0%;
 }
-h1,
-h2 {
-  font-family: cursive;
-  /* background-color: purple;
-  color: aliceblue;
-  height: 150px ; */
-}
 
 body {
-  background-image: url('https://stackblitz.com/files/js-2yrgif/github/abhi-2107/playinghtmlcss/main/canthurtme.png');
+  background-color: antiquewhite;
 }
+h1 {
+  font-family: cursive;
+  background-color: purple;
+  color: yellow;
+  height: 100px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+h2 {
+  border: 2px solid black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: brown;
+}
+
+/* body {
+  background-image: url('https://stackblitz.com/files/js-2yrgif/github/abhi-2107/playinghtmlcss/main/canthurtme.png');
+} */
