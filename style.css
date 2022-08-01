@@ -1,6 +1,15 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
 h1,
 h2 {
   font-family: cursive;
-  background-color: black;
+  /* background-color: purple;
   color: aliceblue;
+  height: 150px ; */
+}
+
+body {
+  background-image: url('dg.png');
 }
