@@ -16,11 +16,32 @@ h1 {
 }
 
 h2 {
-  border: 2px solid black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: brown;
+
+  height: 70px;
+  width: 200px;
+  margin: 6px;
+  padding: 4px;
+  border: 2px solid black;
 }
 
+#trbl {
+  margin: 2px 4px 6px 8px;
+  /* margin is updated from TOP RIGHT BOTTOM LEFT  */
+  background-color: aqua;
+  height: 40px;
+  width: 350px;
+  text-align: right;
+  border: 3px dashed purple;
+}
+
+#tl {
+  margin: 5px 30px;
+  /* 5px margin set on top - bottom  and 10px on left-right */
+  background-color: aquamarine;
+  border: 1px solid;
+}
 /* body {
   background-image: url('https://stackblitz.com/files/js-2yrgif/github/abhi-2107/playinghtmlcss/main/canthurtme.png');
 } */
