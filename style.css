@@ -9,6 +9,7 @@ header {
   color: yellow;
   height: 100px;
   text-align: center;
+
   border: 2px solid black;
 }
 
@@ -20,8 +21,10 @@ main {
   background-color: papayawhip;
 }
 h2 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: brown;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: yellow wavy underline;
+  text-transform: capitalize;
 
   height: 70px;
   width: 200px;
@@ -69,6 +72,16 @@ h2 {
   /* contain box and border box are two main box  sizing properties  */
 }
 
+#texts {
+  /* text-decoration:overline; */
+  text-transform: capitalize;
+  line-height: 30px;
+  font-size: 22px;
+  font-style: oblique;
+  /* font-variant: small-caps; */
+}
 /* body {
   background-image: url('https://stackblitz.com/files/js-2yrgif/github/abhi-2107/playinghtmlcss/main/canthurtme.png');
 } */
+
+/* display: inline,block,inline-block these are display properties used to set up block level elenments side wise */
