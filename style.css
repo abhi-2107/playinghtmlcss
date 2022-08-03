@@ -11,9 +11,6 @@ header {
   text-align: center;
   border: 2px solid black;
 }
-nav {
-  background-color: rgb(10, 10, 10);
-}
 
 /* Q - how can i change text color of link
 #nav {
